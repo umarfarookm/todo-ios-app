@@ -35,6 +35,7 @@
 		184858AD2A829DF400FFCE6A /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 184858AC2A829DF400FFCE6A /* FirebaseAuth */; };
 		184858AF2A829DF400FFCE6A /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 184858AE2A829DF400FFCE6A /* FirebaseFirestore */; };
 		184858B12A829DF400FFCE6A /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 184858B02A829DF400FFCE6A /* FirebaseFirestoreSwift */; };
+		18D546C82A8BC38800FFD084 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D546C72A8BC38800FFD084 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,7 @@
 		184858982A828FC100FFCE6A /* TODO-ListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TODO-ListUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1848589C2A828FC100FFCE6A /* TODO_ListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODO_ListUITests.swift; sourceTree = "<group>"; };
 		1848589E2A828FC100FFCE6A /* TODO_ListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODO_ListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		18D546C72A8BC38800FFD084 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +217,7 @@
 				18408F4D2A8544880087054E /* GoogleService-Info.plist */,
 				184858812A828FBE00FFCE6A /* TODO_ListApp.swift */,
 				184858852A828FC000FFCE6A /* Assets.xcassets */,
+				18D546C72A8BC38800FFD084 /* Extensions.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -373,6 +376,7 @@
 				18408F502A8547030087054E /* ProfileView.swift in Sources */,
 				18408F5C2A8550C50087054E /* User.swift in Sources */,
 				18408F5A2A854FC10087054E /* ToDoItemView.swift in Sources */,
+				18D546C82A8BC38800FFD084 /* Extensions.swift in Sources */,
 				18408F6A2A8551940087054E /* RegistrationViewViewModel.swift in Sources */,
 				18408F682A85517F0087054E /* NewItemViewViewModel.swift in Sources */,
 				18408F522A8547410087054E /* LoginView.swift in Sources */,
